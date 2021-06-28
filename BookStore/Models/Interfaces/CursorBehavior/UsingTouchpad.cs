@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 
 namespace VirtualComputer.Models.Interfaces.CursorBehavior {
-  class UsingTouchpad {
-    void Cursor() { }
+  class UsingTouchpad : ICursorBehavior {
+    void ICursorBehavior.Cursor() { }
   }
 }

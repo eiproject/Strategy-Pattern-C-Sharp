@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 
 namespace VirtualComputer.Models {
-  interface CursorBehavior {
+  interface ICursorBehavior {
     void Cursor() { }
   }
 }

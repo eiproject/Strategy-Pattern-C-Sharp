@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 
 namespace VirtualComputer.Models.Interfaces.PowerBehavior {
-  class UsingBattery {
-    void Battery() { }
+  class UsingBattery : IPowerBehavior{
+    void IPowerBehavior.Battery() { }
   }
 }

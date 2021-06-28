@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 
 namespace VirtualComputer.Models.Interfaces.CursorBehavior {
-  class UsingMouse {
-    void Cursor() { }
+  class UsingMouse : ICursorBehavior{
+    void ICursorBehavior.Cursor() { }
   }
 }

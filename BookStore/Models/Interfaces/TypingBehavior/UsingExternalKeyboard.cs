@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 
 namespace VirtualComputer.Models.Interfaces.TypingBehavior {
-  class UsingExternalKeyboard {
-    void Typing() { }
+  class UsingExternalKeyboard : ITypingBehavior {
+    void ITypingBehavior.Typing() { }
   }
 }

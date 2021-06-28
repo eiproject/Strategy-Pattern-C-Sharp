@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 
 namespace VirtualComputer.Models.Interfaces.CursorBehavior {
-  class UsingTouchScreen {
-    void Cursor() { }
+  class UsingTouchScreen : ICursorBehavior {
+    void ICursorBehavior.Cursor() { }
   }
 }
