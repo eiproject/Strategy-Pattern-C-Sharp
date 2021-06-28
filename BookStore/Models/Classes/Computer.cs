@@ -7,5 +7,19 @@ namespace VirtualComputer.Models {
     internal void Display() { }
     internal abstract void View();
     internal abstract void Specification();
+
+    internal ICursorBehavior cursorBehavior;
+    internal IPowerBehavior powerBehavior;
+    internal ITypingBehavior typingBehavior;
+
+    internal void setCursor() {
+      cursorBehavior.Cursor();
+    }
+    internal void setPower() {
+      powerBehavior.Battery();
+    }
+    internal void setTyping() {
+      typingBehavior.Typing();
+    }
   }
 }
