@@ -4,5 +4,6 @@ using System.Text;
 
 namespace VirtualComputer.Models.Interfaces.CursorBehavior {
   class UsingTouchpad {
+    void Cursor() { }
   }
 }

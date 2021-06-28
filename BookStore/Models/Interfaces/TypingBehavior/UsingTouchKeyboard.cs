@@ -4,5 +4,6 @@ using System.Text;
 
 namespace VirtualComputer.Models.Interfaces.TypingBehavior {
   class UsingTouchKeyboard {
+    void Typing() { }
   }
 }

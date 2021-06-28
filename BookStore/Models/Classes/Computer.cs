@@ -4,8 +4,8 @@ using System.Text;
 
 namespace VirtualComputer.Models {
   abstract class Computer {
-    class Display { }
-    abstract class View { }
-    abstract class Specification { }
+    internal void Display() { }
+    internal abstract void View();
+    internal abstract void Specification();
   }
 }

@@ -4,6 +4,6 @@ using System.Text;
 
 namespace VirtualComputer.Models {
   interface CursorBehavior {
-    class Cursor { }
+    void Cursor() { }
   }
 }
