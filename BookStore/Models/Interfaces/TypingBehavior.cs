@@ -4,6 +4,8 @@ using System.Text;
 
 namespace VirtualComputer.Models {
   interface ITypingBehavior {
-    void Typing() { }
+    string Typing() {
+      return null;
+    }
   }
 }

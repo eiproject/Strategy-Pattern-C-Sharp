@@ -4,8 +4,9 @@ using System.Text;
 
 namespace VirtualComputer.Models {
   class UsingBuiltInKeyboard : ITypingBehavior{
-    void ITypingBehavior.Typing() {
+    string ITypingBehavior.Typing() {
       Console.WriteLine("Using Built In Keyboard");
+      return "Using Built In Keyboard";
     }
   }
 }

@@ -4,6 +4,8 @@ using System.Text;
 
 namespace VirtualComputer.Models {
   interface IPowerBehavior {
-    void Battery() { }
+    string Battery() {
+      return null;
+    }
   }
 }

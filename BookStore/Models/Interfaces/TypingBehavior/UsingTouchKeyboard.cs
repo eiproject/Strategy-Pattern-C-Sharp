@@ -4,8 +4,9 @@ using System.Text;
 
 namespace VirtualComputer.Models {
   class UsingTouchKeyboard : ITypingBehavior {
-    void ITypingBehavior.Typing() {
+    string ITypingBehavior.Typing() {
       Console.WriteLine("Using Touch Keyboard");
+      return "Using Touch Keyboard";
     }
   }
 }

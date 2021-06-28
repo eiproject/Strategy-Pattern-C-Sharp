@@ -4,8 +4,9 @@ using System.Text;
 
 namespace VirtualComputer.Models {
   class UsingBattery : IPowerBehavior{
-    void IPowerBehavior.Battery() {
+    string IPowerBehavior.Battery() {
       Console.WriteLine("Using Baterry");
+      return "Using Battery";
     }
   }
 }

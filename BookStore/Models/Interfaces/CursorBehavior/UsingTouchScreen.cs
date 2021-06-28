@@ -4,8 +4,9 @@ using System.Text;
 
 namespace VirtualComputer.Models {
   class UsingTouchScreen : ICursorBehavior {
-    void ICursorBehavior.Cursor() {
+    string ICursorBehavior.Cursor() {
       Console.WriteLine("Using Touch Screen");
+      return "Using Touch Screen";
     }
   }
 }

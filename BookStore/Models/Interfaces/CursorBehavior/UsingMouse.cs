@@ -4,8 +4,9 @@ using System.Text;
 
 namespace VirtualComputer.Models {
   class UsingMouse : ICursorBehavior{
-    void ICursorBehavior.Cursor() {
+    string ICursorBehavior.Cursor() {
       Console.WriteLine("Using Mouse");
+      return "Using Mouse";
     }
   }
 }

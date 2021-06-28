@@ -17,25 +17,28 @@ namespace VirtualComputer.Models {
     internal ITypingBehavior typingBehavior;
 
     // checking the feature
-    internal void checkCursor() {
-      cursorBehavior.Cursor();
+    internal string checkCursor() {
+      return cursorBehavior.Cursor();
     }
-    internal void checkPower() {
-      powerBehavior.Battery();
+    internal string checkPower() {
+      return powerBehavior.Battery();
     }
-    internal void checkTyping() {
-      typingBehavior.Typing();
+    internal string checkTyping() {
+      return typingBehavior.Typing();
     }
 
     // setting the feature
-    internal void setCursor(ICursorBehavior cb) {
+    internal string setCursor(ICursorBehavior cb) {
       cursorBehavior = cb;
+      return cursorBehavior.Cursor();
     }
-    internal void setPower(IPowerBehavior pb) {
+    internal string setPower(IPowerBehavior pb) {
       powerBehavior = pb;
+      return powerBehavior.Battery();
     }
-    internal void setTyping(ITypingBehavior tb) {
+    internal string setTyping(ITypingBehavior tb) {
       typingBehavior = tb;
+      return typingBehavior.Typing();
     }
   }
 }

@@ -1,5 +1,8 @@
 ﻿using System;
+using System.Runtime.CompilerServices;
 using VirtualComputer.Models;
+
+[assembly: InternalsVisibleTo("UnitTesting")]
 
 namespace VirtualComputer {
   class Program {
@@ -13,9 +16,9 @@ namespace VirtualComputer {
 
       Computer adminComputer = new PersonalComputer();
       adminComputer.Display();
-      adminComputer.checkCursor();
+      string c1 = adminComputer.checkCursor();
       adminComputer.setCursor(new UsingMouse());
-      adminComputer.checkCursor();
+      string c2 = adminComputer.checkCursor();
     }
   }
 }
