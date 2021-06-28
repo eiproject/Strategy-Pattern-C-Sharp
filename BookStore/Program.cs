@@ -12,6 +12,7 @@ namespace VirtualComputer {
       razifLaptop.checkTyping();*/
 
       Computer adminComputer = new PersonalComputer();
+      adminComputer.Display();
       adminComputer.checkCursor();
       adminComputer.setCursor(new UsingMouse());
       adminComputer.checkCursor();

@@ -5,7 +5,9 @@ using System.Text;
 namespace VirtualComputer.Models {
   abstract class Computer {
     // common data declared
-    internal void Display() { }
+    internal void Display() {
+      Console.WriteLine("Liquid Crystal Display");
+    }
     internal abstract void View();
     internal abstract void Specification();
 
