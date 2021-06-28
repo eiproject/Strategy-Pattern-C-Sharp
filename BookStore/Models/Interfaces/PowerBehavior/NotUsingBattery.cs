@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace VirtualComputer.Models.Interfaces.PowerBehavior {
+namespace VirtualComputer.Models {
   class NotUsingBattery : IPowerBehavior {
     void IPowerBehavior.Battery() { }
   }
