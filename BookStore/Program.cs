@@ -6,8 +6,15 @@ namespace VirtualComputer {
     static void Main(string[] args) {
       Console.WriteLine("Virtual Computer Running!");
 
-      Computer RazifLaptop = new Laptop();
-      RazifLaptop.setCursor();
+      /*Computer razifLaptop = new Laptop();
+      razifLaptop.checkCursor();
+      razifLaptop.checkPower();
+      razifLaptop.checkTyping();*/
+
+      Computer adminComputer = new PersonalComputer();
+      adminComputer.checkCursor();
+      adminComputer.setCursor(new UsingMouse());
+      adminComputer.checkCursor();
     }
   }
 }

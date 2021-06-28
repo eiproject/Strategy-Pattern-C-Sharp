@@ -4,6 +4,8 @@ using System.Text;
 
 namespace VirtualComputer.Models {
   class UsingExternalKeyboard : ITypingBehavior {
-    void ITypingBehavior.Typing() { }
+    void ITypingBehavior.Typing() {
+      Console.WriteLine("Using External Keyboard");
+    }
   }
 }
