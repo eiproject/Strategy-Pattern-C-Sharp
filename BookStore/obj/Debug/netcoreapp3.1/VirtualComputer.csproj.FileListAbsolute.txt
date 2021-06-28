@@ -1,0 +1,13 @@
+C:\Lab Formulatrix\DesignPattern0\BookStore\bin\Debug\netcoreapp3.1\VirtualComputer.exe
+C:\Lab Formulatrix\DesignPattern0\BookStore\bin\Debug\netcoreapp3.1\VirtualComputer.deps.json
+C:\Lab Formulatrix\DesignPattern0\BookStore\bin\Debug\netcoreapp3.1\VirtualComputer.runtimeconfig.json
+C:\Lab Formulatrix\DesignPattern0\BookStore\bin\Debug\netcoreapp3.1\VirtualComputer.runtimeconfig.dev.json
+C:\Lab Formulatrix\DesignPattern0\BookStore\bin\Debug\netcoreapp3.1\VirtualComputer.dll
+C:\Lab Formulatrix\DesignPattern0\BookStore\bin\Debug\netcoreapp3.1\VirtualComputer.pdb
+C:\Lab Formulatrix\DesignPattern0\BookStore\obj\Debug\netcoreapp3.1\VirtualComputer.csprojAssemblyReference.cache
+C:\Lab Formulatrix\DesignPattern0\BookStore\obj\Debug\netcoreapp3.1\VirtualComputer.AssemblyInfoInputs.cache
+C:\Lab Formulatrix\DesignPattern0\BookStore\obj\Debug\netcoreapp3.1\VirtualComputer.AssemblyInfo.cs
+C:\Lab Formulatrix\DesignPattern0\BookStore\obj\Debug\netcoreapp3.1\VirtualComputer.csproj.CoreCompileInputs.cache
+C:\Lab Formulatrix\DesignPattern0\BookStore\obj\Debug\netcoreapp3.1\VirtualComputer.dll
+C:\Lab Formulatrix\DesignPattern0\BookStore\obj\Debug\netcoreapp3.1\VirtualComputer.pdb
+C:\Lab Formulatrix\DesignPattern0\BookStore\obj\Debug\netcoreapp3.1\VirtualComputer.genruntimeconfig.cache

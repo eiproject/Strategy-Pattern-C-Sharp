@@ -1,0 +1,13 @@
+C:\Lab Formulatrix\DesignPattern0\BookStore\bin\Debug\netcoreapp3.1\BookStore.exe
+C:\Lab Formulatrix\DesignPattern0\BookStore\bin\Debug\netcoreapp3.1\BookStore.deps.json
+C:\Lab Formulatrix\DesignPattern0\BookStore\bin\Debug\netcoreapp3.1\BookStore.runtimeconfig.json
+C:\Lab Formulatrix\DesignPattern0\BookStore\bin\Debug\netcoreapp3.1\BookStore.runtimeconfig.dev.json
+C:\Lab Formulatrix\DesignPattern0\BookStore\bin\Debug\netcoreapp3.1\BookStore.dll
+C:\Lab Formulatrix\DesignPattern0\BookStore\bin\Debug\netcoreapp3.1\BookStore.pdb
+C:\Lab Formulatrix\DesignPattern0\BookStore\obj\Debug\netcoreapp3.1\BookStore.csprojAssemblyReference.cache
+C:\Lab Formulatrix\DesignPattern0\BookStore\obj\Debug\netcoreapp3.1\BookStore.AssemblyInfoInputs.cache
+C:\Lab Formulatrix\DesignPattern0\BookStore\obj\Debug\netcoreapp3.1\BookStore.AssemblyInfo.cs
+C:\Lab Formulatrix\DesignPattern0\BookStore\obj\Debug\netcoreapp3.1\BookStore.csproj.CoreCompileInputs.cache
+C:\Lab Formulatrix\DesignPattern0\BookStore\obj\Debug\netcoreapp3.1\BookStore.dll
+C:\Lab Formulatrix\DesignPattern0\BookStore\obj\Debug\netcoreapp3.1\BookStore.pdb
+C:\Lab Formulatrix\DesignPattern0\BookStore\obj\Debug\netcoreapp3.1\BookStore.genruntimeconfig.cache
